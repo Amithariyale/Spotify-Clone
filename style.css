@@ -48,14 +48,17 @@ header {
 a {
     text-decoration: none;
     color: #B3B3B3;
-    
+
 }
-a>span{
+
+a>span {
     transition: all 1s ease;
 }
-a>span:hover{
-    color:gray;
+
+a>span:hover {
+    color: gray;
 }
+
 .episodes {
     background-color: #004638;
 }
@@ -78,6 +81,10 @@ main {
     background-color: #0A0A0A;
     padding: 3px;
     border-radius: 50px;
+}
+
+#title_playlist>div>div:hover {
+    cursor: pointer;
 }
 
 .playlist_item {
@@ -103,13 +110,17 @@ main {
 }
 
 .card {
-    width:250px;
+    width: 250px;
     height: 310px;
     background: #181818;
     padding: 15px;
     padding-bottom: 0px;
     margin-top: 20px;
     margin-left: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
 }
 
 #musicPlayer {
@@ -120,11 +131,21 @@ main {
     background: #181818;
 }
 
+#player>div>svg:hover {
+    cursor: pointer;
+}
+
 .line-1 {
     width: 80%;
     height: 5px;
     border-radius: 2.5px;
     background: #535353;
+}
+
+.line-1:hover,
+#right_options>svg:hover,
+.volume:hover {
+    cursor: pointer;
 }
 
 .line-2 {
